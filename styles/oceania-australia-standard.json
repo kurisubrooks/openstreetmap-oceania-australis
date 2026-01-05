@@ -170,12 +170,7 @@
       "source-layer": "land",
       "filter": ["all", ["in", "kind", "forest"]],
       "paint": {
-        "fill-color": {
-          "stops": [
-            [13, "rgba(146, 201, 155, 1)"],
-            [15, "rgba(146, 201, 155, 1)"]
-          ]
-        },
+        "fill-color": "rgba(146, 201, 155, 1)",
         "fill-opacity": {"stops": [[7, 0], [8, 1]]}
       }
     },
